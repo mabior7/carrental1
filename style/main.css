@@ -1,0 +1,440 @@
+/* Designed by: Mabior Duom*/
+
+/*start of styling for all*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.right-side{
+    text-align: right;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.btn-pri{
+    background: conic-gradient(red, blue);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-pri:hover{
+    color: black;
+}
+
+.box .bbt:hover{
+    color: #8E0E00;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.ted{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+
+  .toop {
+    margin-top: 0%;
+  }
+
+/*end of styling for all*/
+
+/*start of styling for top*/
+.top{
+    background-image: url(../images/po2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+
+.nav{
+    line-height: 50px;
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bolder;
+}
+
+.nav ul li a{
+    color: blanchedalmond;
+    font-size: 20px;
+    background: conic-gradient(red, blue);
+    padding: 1%;
+    border-radius: 50%;
+}
+
+.nav ul li a:hover{
+    color: black;
+}
+
+/*end of styling for top*/
+
+/*start of styling for search*/
+.searchh{
+    position: relative;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    padding: 8% 0;
+}
+
+.searchh .text-center{
+    text-align: center;
+}
+
+.searchh input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+/*end of styling for search*/
+
+/*start of styling for rentals*/
+.rentals{
+    padding: 1% 0;
+    text-align: center;
+}
+
+.rentals span{
+    color: black;
+}
+/*end of styling for rentals*/
+
+/*start of styling for mid*/
+.mid{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+
+.head{
+    text-align: center;
+}
+
+.head span{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.head h1{
+    font-size: 1.5rem;
+}
+
+.head-con{
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.head-con .box{
+    text-align: center;
+    padding: 10px;
+}
+
+.head-con .box img{
+    font-size: medium;
+    padding: 5px;
+    background: linear-gradient(to right, #d8cec2, #8E0E00);
+    border-radius: 1rem;
+}
+
+.head-con .box h2{
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+
+.head-con .box img:hover{
+    background: linear-gradient(to right, #F0CB35, #C02425);
+}
+/*end of styling for mid*/
+
+/*start of styling for explore*/
+.explore{
+    
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.box-3 img{
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.box-3 img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    border-radius: 2%;
+}
+/*end of styling for explore*/
+
+/*start of styling for services*/
+
+.services{
+    background:  rgb(255,255,255);
+    padding: 2% 0;
+}
+.serd-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.serd-con .box{
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 41px rgb(6, 12, 0);
+}
+
+.serd-con .box .box-img{
+    width: 100%;
+    height: 200px;
+}
+
+.serd-con .box .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.serd-con .box p{
+    padding: 0 10px;
+    border: 1px solid black;
+    width: 58px;
+    border-radius: 0.5rem;
+    margin: 1rem 0 1rem;
+}
+
+.serd-con .box h3{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.serd-con .box h2{
+    font-size: 1.1rem;
+    color: black;
+    margin: 0.2rem 0 0.5rem;
+}
+
+.serd-con .box h2 span{
+    font-size: 0.8rem;
+    color: whitesmoke;
+}
+
+.serd-con .box .btn{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, 		#DCDCDC, #000000);
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.serd-con .box .btn:hover{
+    background: green;
+}
+/*end of styling for services*/
+
+/*start of styling for map*/
+.map{
+    background: white;
+
+    padding: 2% 0;
+}
+.map iframe {
+    width: 100%;
+  }
+/*end of styling for map*/
+
+
+/*footer*/
+.sec{
+    background: #403A3E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 2% 0;
+
+    color: white;
+    background: black;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+  }
+  
+.footer li {
+    margin-bottom: 15px;
+    transition: 0.5s;
+  }
+  
+.footer li:hover {
+    color: #C1B086;
+    cursor: pointer;
+  }
+/*start of styling for bottom*/
+.bottom{
+    background-color: #000000;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    padding: 0% 0;
+}
+/*end of styling for bottom*/
+
+/*start of styling for contact page*/
+
+/*end of styling for contact page*/
+
+
+/*start of styling for signup page*/
+.sign_up{
+    background: yellow;
+
+    
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2% 0;
+}
+
+.sign_up h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sign_up h4{
+    text-align: center;
+}
+
+.sign_up form{
+    width: 300px;
+    margin-top: 15px;
+}
+
+.sign_up form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sign_up form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgba(128, 0, 0, 0.863);
+    outline: none;
+    border-radius: 2rem;
+}
+
+.sign_up input[type="button"]{
+    margin-top: 20px;
+    width: 320px;
+    height: 35px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+.sign_up p{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+/*end of styling for signup page*/
